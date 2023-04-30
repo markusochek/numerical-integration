@@ -20,13 +20,31 @@ export function gaussQuadrature(a, b) {
     }
     console.log(terms)
 
-    for (let i = 0; i < n; i++) {
-        calculationIntegral(n, b);
+    let numbers = calculationIntegral(n, b, a);
+    console.log(numbers)
+
+    let matrixA = []
+    let matrixB = []
+    for (const number of numbers) {
+        matrixB.push(-number[0])
+        matrixA.push([])
+        for (let i = 1; i < number.length; i++) {
+            matrixA[matrixA.length-1].push(number[i])
+        }
     }
+    console.log(math.multiply(math.inv(matrixA), matrixB))
 }
 
-function calculationIntegral(n, x) {
+function calculationIntegral(n, b, a) {
+    let coefficients = []
     for (let i = 1; i < n + 1; i++) {
-        console.log(Math.pow(x, i) / i);
+        coefficients.push([]);
+        for (let j = i; j < n + i + 1; j++) {
+            coefficients[coefficients.length-1].push(Math.pow(b, j) / j - Math.pow(a, j) / j);
+        }
+        coefficients[coefficients.length-1] = coefficients[coefficients.length-1].reverse()
     }
+
+    return coefficients;
+
 }

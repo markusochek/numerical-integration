@@ -3,9 +3,10 @@ import {gaussQuadrature} from "./GaussQuadrature.js";
 
 let N = 25;
 // N % 15 = 10
-let b = Math.PI / 2;
-let a = Math.PI / 4;
-
+// let b = Math.PI / 2;
+// let a = Math.PI / 4;
+let b = 1;
+let a = 0;
 runge(f, a, b)
 gaussQuadrature(a, b)
 

@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f1e6a8b-6250-497b-9ffe-476bbe1f62b6" name="Changes" comment="first commit" />
+    <list default="true" id="0f1e6a8b-6250-497b-9ffe-476bbe1f62b6" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GaussQuadrature.js" beforeDir="false" afterPath="$PROJECT_DIR$/GaussQuadrature.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +57,7 @@
       <workItem from="1682754860345" duration="10812000" />
       <workItem from="1682778273902" duration="8289000" />
       <workItem from="1682867846419" duration="115000" />
-      <workItem from="1682868011561" duration="336000" />
+      <workItem from="1682868011561" duration="3506000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1682867895777</created>
