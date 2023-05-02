@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0f1e6a8b-6250-497b-9ffe-476bbe1f62b6" name="Changes" comment="first commit">
+    <list default="true" id="0f1e6a8b-6250-497b-9ffe-476bbe1f62b6" name="Changes" comment="completed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GaussQuadrature.js" beforeDir="false" afterPath="$PROJECT_DIR$/GaussQuadrature.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Runge.js" beforeDir="false" afterPath="$PROJECT_DIR$/Runge.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +58,9 @@
       <workItem from="1682754860345" duration="10812000" />
       <workItem from="1682778273902" duration="8289000" />
       <workItem from="1682867846419" duration="115000" />
-      <workItem from="1682868011561" duration="3506000" />
+      <workItem from="1682868011561" duration="3558000" />
+      <workItem from="1682939225775" duration="7826000" />
+      <workItem from="1683016949095" duration="7168000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1682867895777</created>
@@ -66,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682867895777</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="backend almost completed">
+      <created>1682871776961</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682871776961</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -85,6 +95,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="backend almost completed" />
+    <MESSAGE value="completed" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed" />
   </component>
 </project>

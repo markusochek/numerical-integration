@@ -1,8 +1,7 @@
-export function runge(f, a, b) {
+export function runge(f, a, b, e) {
     let m = 1;
     let s = 1;
-    let e = Math.pow(10, -4);
-    return Runge(f, m, a, b, s, e);
+    return [Runge(f, m, a, b, s, e), e];
 }
 
 function Runge(f, m, a, b, s, e) {

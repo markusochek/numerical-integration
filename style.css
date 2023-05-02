@@ -1,6 +1,7 @@
 div {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 body {
@@ -10,4 +11,5 @@ body {
 
 input {
     width: 80%;
+
 }
